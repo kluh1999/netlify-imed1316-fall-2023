@@ -1,0 +1,51 @@
+@import "global.css";
+@import "main.css";
+
+.wrapper-main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ffffff !important;
+  padding: 25px;
+  margin-bottom: 0;
+}
+
+.wrapper-content {
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+/*To be fixed*/
+.content-table thead tr th {
+  background-color: var(--dominantColor) !important;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid powderblue;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: powderblue;
+}
+
+.content-table tbody tr th:last-of-type {
+  border-bottom: 3px solid palevioletred;
+}
+
+.content-table tfoot tr:last-of-type {
+  border-bottom: 3px solid var(--dominantColor) !important;
+}
